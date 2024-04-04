@@ -1,0 +1,14 @@
+{
+	"Python Main Function": {
+		"scope": "python",
+		"prefix": "!main",
+		"body": [
+			"def main():",
+			"\tpass",
+			"",
+			"if __name__ == \"__main__\":",
+			"\tmain()"
+		],
+		"description": "Python Boilerplate with Main Function"
+	}
+}
