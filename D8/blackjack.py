@@ -25,7 +25,7 @@ def main():
     else:
         winner = results(comp_cards, plyr_cards)
         if winner == plyr_cards:
-            print(f"player with {plyr_cards} wins")
+            print(f"player with {plyr_cards} wins \n ")
         elif winner == comp_cards:
             print(f"computer with {comp_cards} wins")
         else: 
