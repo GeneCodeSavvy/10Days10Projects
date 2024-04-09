@@ -10,5 +10,22 @@
 			"\tmain()"
 		],
 		"description": "Python Boilerplate with Main Function"
+	},
+	
+	"Python Input Validation Loop": {
+		"scope": "python",
+		"prefix": "!input_validation",
+		"body": [
+			"# Input Validation",
+			"while True:",
+			"\ttry:",
+			"\t\ttask: str = input(\"user input statement\\n\")",
+			"\t\tif task not in [\"expected inputs\"]:",
+			"\t\t\traise ValueError",
+			"\t\tbreak",
+			"\texcept:",
+			"\t\tprint(\"Clear instructions\\n\")"
+		],
+		"description": "Python Input Validation Loop"
 	}
 }

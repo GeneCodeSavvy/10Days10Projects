@@ -38,7 +38,6 @@ if __name__ == "__main__":
         try:
             task : str = input("Type 'encode' to encrypt and 'decode' to decrypt\n")
             if task not in ["encode", "decode"]:
-                task = input("Type 'encode' to encrypt and 'decode' to decrypt\n")
                 raise ValueError
             break
         except:
@@ -56,4 +55,3 @@ if __name__ == "__main__":
 
     print(main(job=task, shift=shift_num, text=text))
 
-        
